@@ -1,0 +1,57 @@
+{
+    "header": {
+        "nav": [{
+                "route": "/en",
+                "label": "Home"
+            },
+            {
+                "route": "/en/contact",
+                "label": "Contact"
+            },
+            {
+                "external": true,
+                "route": "https://sixthirty.pm/",
+                "label": "SixThirty"
+            }
+        ]
+    },
+    "pages": {
+        "home": {
+            "head": {
+                "title": "Home page title",
+                "description": "Homa page description"
+            },
+            "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "img": "https://images.unsplash.com/photo-1491832318808-5d13a9553e36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1336&q=80",
+            "projects": [ "project-1", "project-2" ]
+        },
+        "contact": {
+            "head": {
+                "title": "Contact page title",
+                "description": "Contact page description"
+            },
+            "label": "More info",
+            "email": "askfor@burundanga.studio"
+        }
+    },
+    "projects": {
+        "project-1": {
+            "title": "Project 1",
+            "images": [
+                "https://images.unsplash.com/photo-1529612700005-e35377bf1415?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+                "https://images.unsplash.com/photo-1550716839-7af1a71d6542?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"
+            ]
+        },
+        "project-2": {
+            "title": "Project 2",
+            "images": [
+                "https://images.unsplash.com/photo-1534565337397-2a97f4e093b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80",
+                "https://images.unsplash.com/photo-1509983165097-0c31a863e3f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+            ]
+        }
+    },
+    "dictionary": {
+        "project-button": "SEE PROJECT"
+    },
+    "footer": {}
+}
